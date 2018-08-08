@@ -2,41 +2,40 @@
 <html>
  <head>
     <title>Google</title>
-    <link rel="stylesheet" type="text/css"  href="css/styles.css"/>
-    <meta charset="UTF-8">
-    <meta name="description" content="Non-functional clone of Google Homepage">
-    <meta name="keywords" content="HTML,CSS">
-    <meta name="author" content="Jackie Irons">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
  </head>
 <body>
   <main>
     <header>
-        <nav  class="float-right">
-          <a href="">About</>
-          <a href="">Store</a>
-          <a href="">Gmail</a>
+        <nav  class="float-left">
+          <a href="https://www.google.com/intl/en/about">About</a>
+          <a href="https://store.google.com/">Store</a>
+        </nav>
+        <nav class="float-right">
+          <a href="https://www.gmail.com">Gmail</a>
           <a href="">Images</a>
-          <a href="">Sign In</a>
+          <button type="button">Sign in</button>
           </nav>
     </header>
       <section class="main-content">
         <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo" /></div>
         <form>
           <input type="text" name="search" id="searchbar">
-          <input type="submit" value="Google Search" class="search-bnt float-left" id="bnt-left">
-          <input type="submit" value="I'm Feeling Lucky" class="search-bnt float-right" id="bnt-right"
+          <div class="buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
         </form>
       </section>
       <footer>
-        <div class="float-left">
-          <a href="">Advertising</a>
-          <a href="">Buisness</a>
+        <div class="bot-left">
+          <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#?modal_active=none">Advertising</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Buisness</a>
         </div>
-        <div class="float-right">
-          <a href="">Privacy</a>
-          <a href="">Terms</a>
-          <a href="">Settings</a>
+        <div class="bot-right">
+          <a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a>
+          <a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a>
+          <a href="https://www.google.com">Settings</a>
         </div>
       </footer>
 
